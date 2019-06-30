@@ -1,0 +1,75 @@
+[
+    {
+    "name": "Armaan Malik Concert",
+    "eventDate": "2/7/2019",
+    "seatsAvailable": 0,
+    "img":"assets\\Images\\AMConcert.jpg" 
+    },
+    {
+        "name": "Rahul Dua Comedy",
+        "eventDate": "12/7/2019",
+        "seatsAvailable": 7,
+        "img":"assets\\Images\\RDComedy.jpg" 
+    },
+    {
+        "name": "Event Management Workshop",
+        "eventDate": "20/7/2019",
+        "seatsAvailable": 10,
+        "img":"assets\\Images\\EMWorkshop.jpg" 
+    },
+    {
+        "name": "Neha Kakkar concert",
+        "eventDate": "4/7/2019",
+        "seatsAvailable": 0,
+        "img":"assets\\Images\\NKConcert.jpg" 
+    },
+    {
+        "name": "Abhishek Upamanyu",
+        "eventDate": "20/7/2019",
+        "seatsAvailable": 7,
+        "img":"assets\\Images\\AUComedy.jpg" 
+    },
+    {
+        "name": "Argit Singh Concert",
+        "eventDate": "20/7/2019",
+        "seatsAvailable": 5,
+        "img":"assets\\Images\\ASConcert.jpg" 
+    },
+    {
+        "name": "Zakir Khan Comedy",
+        "eventDate": "2/7/2019",
+        "seatsAvailable": 0,
+        "img":"assets\\Images\\ZKComedy.png" 
+    },
+    {
+        "name": "Ethical Hacking Workshop",
+        "eventDate": "6/7/2019",
+        "seatsAvailable": 0,
+        "img":"assets\\Images\\EHWorkshop.png" 
+    },
+    {
+        "name": "Sandeep Maheshwari Motivational speech",
+        "eventDate": "15/7/2019",
+        "seatsAvailable": 3,
+        "img":"assets\\Images\\SMSpeech.jpg" 
+    },
+    {
+        "name": "Neha kakkar Concert",
+        "eventDate": "20/7/2019",
+        "seatsAvailable": 0,
+        "img":"assets\\Images\\NKConcert.jpg" 
+    },
+    {
+        "name": "Armaan Malik Concert",
+        "eventDate": "22/7/2019",
+        "seatsAvailable": 5,
+        "img":"assets\\Images\\AMConcert.jpg" 
+    },
+    {
+        "name": "Rahul Dua Comedy",
+        "eventDate": "20/7/2019",
+        "seatsAvailable": 10,
+        "img":"assets\\Images\\RDComedy.jpg" 
+    }
+
+    ]

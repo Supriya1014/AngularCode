@@ -1,0 +1,33 @@
+<div class="card">
+  <div class="card-body">
+    <form>
+      <div class="row">
+        <div class="form-group" class="col-md-5" style="margin: 0 auto;">
+          <input type="text" [(ngModel)]="filter" name="filter" placeholder="SEARCH EVENTS" class="form-control"
+             />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let d of data | customerEmailFilter:filter;let i = index">
+      <div class="block">
+        <img src="{{d.img}}" class="img-rounded" alt="Cinque Terre"
+          style="height:150px; width:150px; margin-bottom: 2%;">
+        <p><strong>{{d.name}} </strong></p>
+        <p style="margin-top: -5%">Date: {{d.eventDate}}</p>
+        <p style="margin-top: -5%">Seats Available: {{d.seatsAvailable}}</p>
+        <button style="margin-top: -1%; width:100%;" [routerLink]="['/book']" class="btn btn-primary"
+          (click)="newMessage(i)">{{d.seatsAvailable >0 ? 'Book Now' : 'Sold Out'}}</button>
+      </div>
+    </div>
+    <div class="col-sm-12"
+      *ngIf="!(data | customerEmailFilter:filter) || (data | customerEmailFilter:filter).length === 0"
+      style="align: center;margin-top: 7%">
+      <h4>No Result Found</h4>
+    </div>
+  </div>
+</div>
